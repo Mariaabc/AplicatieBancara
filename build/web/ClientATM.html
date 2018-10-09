@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>ATM</title>
+</head>
+    
+<body>
+    <div class = "meniu"> 
+            <a href = "ClientMyAccount.html"> Main page </a>
+            <a href = "ClientMoneyTransfer.html"> Transfer Money </a>
+            <a href = "ClientTransactionHistory.html"> Client Transaction History </a>
+    </div>
+    <div id="aaa">
+    <form action = "ClientATM"  method="post"> 
+        Enter iban-ul cardului : <input type = "text" name="iban"> <br>
+        Enter pin-ul cardului : <input type = "text" name="pin"> <br>
+        Enter numerar : <input type = "text" name="numerar"> <br>
+        <input type="submit" value ="apel servlet get">
+    </form>
+    
+    <form action = "Logout" method="post" class="logout"> 
+        <input type="submit" value ="LOGOUT">
+    </form>
+    </div>
+        <style> 
+        a:hover{background-color: blue;}
+        #aaa {
+            position:fixed;
+            top: 40%;
+            left:40%;
+        }
+        body{
+    background-color: lightblue;
+   
+}
+        </style> 
+</body>
+
+</html>

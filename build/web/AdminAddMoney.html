@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>ADD MONEY</title>
+</head>
+    
+<body>
+    <div class="meniu" >
+        <a href = "AdminNewAccount.html"> New Account </a>
+        <a href = "AdminCreateCard.html"> Create Card </a>
+        <a href = "AdminTransactionHistory.html"> Transaction History </a>
+        <a href = "AdminDeleteAccount.html"> Delete Account </a>
+        <a href = "AdminMyAccount.html"> My Account </a>
+    </div>
+    
+    <div id = "aaa">
+    <form action = "AdaugaBani"  method="post"> 
+        Enter iban : <input type = "text" name="iban"> <br>
+        Enter numerar : <input type = "text" name="numerar"> <br>
+        <input type="submit" value ="apel servlet get">
+    </form>
+    
+    <form action = "Logout" method="post" class="logout"> 
+        <input type="submit" value ="LOGOUT">
+    </form> 
+    </div>
+    <style> 
+        a:hover{background-color: blue;}
+        #aaa {
+            position:fixed;
+            top: 40%;
+            left:40%;
+        }
+    body{
+    background-color: lightblue;
+    
+}
+    </style> 
+</body>
+
+</html>

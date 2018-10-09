@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>Client Transaction History</title>
+</head>
+    
+<body>
+    
+    <div id = "meniu"> 
+            <a href = "ClientMyAccount.html"> Main page </a>
+            <a href = "ClientMoneyTransfer.html"> Transfer Money </a>
+            <a href = "ClientATM.html"> ATM </a>
+    </div>
+    
+    <div id= "aaa">
+    <form action = "ClientTransactionHistory" method="post"> 
+        Enter iban card : <input type = "text" name="iban"> <br>
+        Enter pin card : <input type = "text" name="pin"> <br>
+        <input type="submit" value ="apel servlet get">
+    </form>
+    
+    <form action = "Logout" method="post" class="logout"> 
+        <input type="submit" value ="LOGOUT">
+    </form>
+    </div>
+    
+<style> 
+    a:hover{background-color: blue;}
+#aaa {
+    position:fixed;
+    top: 40%;
+    left:40%;
+}
+body{
+    background-color: lightblue;
+    
+}
+</style> 
+</body>
+
+</html>

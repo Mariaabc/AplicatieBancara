@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>NEW ACCOUNT</title>
+</head>
+    
+<body>
+    
+    <div class="meniu" >
+        <a href = "AdminAddMoney.html"> Add Money </a>
+        <a href = "AdminCreateCard.html"> Create Card </a>
+        <a href = "AdminTransactionHistory.html"> Transaction History </a>
+        <a href = "AdminDeleteAccount.html"> Delete Account </a>
+        <a href = "AdminMyAccount.html"> My Account </a>
+    </div>
+    <div id="aaa">
+    <form action = "NewAccount"  method="post"> 
+        Enter type :<select name = "type">
+            <option value="admin">admin</option>
+            <option value="user">user</option>
+        </select><br>
+        Enter username : <input type = "text" name="user"> <br>
+        Enter password : <input type = "text" name="pass"> <br>
+        <input type="submit" value ="apel servlet get">
+    </form>
+    
+    <form action = "Logout" method="post" class="logout"> 
+        <input type="submit" value ="LOGOUT">
+    </form> 
+    </div>
+    <style> 
+        a:hover{background-color: blue;}
+        #aaa {
+            position:fixed;
+            top: 40%;
+            left:40%;
+        }
+    body{
+    background-color: lightblue;
+    
+}
+    </style> 
+</body>
+
+</html>
